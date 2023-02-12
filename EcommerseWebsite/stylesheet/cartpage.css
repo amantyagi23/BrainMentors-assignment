@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    background-color: #222222;
+    color: #fff;
+}
+.navbar .logoimg{
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+}
+.navbar ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    margin: 20px;
+    list-style: none;
+}
+.inputBox{
+    height: 30px;
+    width: 350px;
+    border-radius: 12px;
+}
+.inputBox input{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.navbar ul li a{
+    font-weight: 700;
+    font-size: larger;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul li a :hover{
+    font-weight: 900;
+   color: rgba(0, 0, 0, 0.5);
+}
